@@ -1,0 +1,11 @@
+.home-lcontainer{
+	width: 30%;
+	position: absolute;
+	left: 5%;
+}
+
+.home-rcontainer{
+	width: 30%;
+	position: absolute;
+	right: 5%;
+}
