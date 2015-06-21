@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Player1",
+    "steps": 8000,
+    "stairs": 10,
+    "sleepHours": 9
+  },
+  {
+    "name": "Player2",
+    "steps": 7500,
+    "stairs": 15,
+    "sleepHours": 3
+  },
+  {
+    "name": "Player3",
+    "steps": 3000,
+    "stairs": 8,
+    "sleepHours": 7
+  },
+  {
+    "name": "Player4",
+    "steps": 5000,
+    "stairs": 5,
+    "sleepHours": 5
+  },
+]
