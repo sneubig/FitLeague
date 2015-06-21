@@ -1,4 +1,4 @@
-<html ng-app>
+<html ng-app="fitLeague">
 <head>
 	<title>FitLeague</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -6,22 +6,15 @@
 
 <body>
 	
-	<div ng-controller="TestCtrl">
-		<h1>{{title}}</h1>
-		<input type="text" ng-model="title" placeholder="Write title">
-	</div>
+	<div ng-view></div>
 
 	<!-- Vendor libraries -->
   <script src="lib/jquery-v1.11.1.js"></script>
   <script src="lib/angular-v1.2.22.js"></script>
-  <!-- <script src="lib/angular-route-v1.2.22.js"></script> -->
+  <script src="lib/angular-route-v1.2.22.js"></script>
+  <!-- Application Files -->
+  <script src="js/main.js"></script>
+  <script src="js/controllers/home.js"></script>
 
-  <script>
-
-  	function TestCtrl($scope){
-  		$scope.title = 'Test Title';
-  	};
-
-  </script>
 </body>
 </html>
